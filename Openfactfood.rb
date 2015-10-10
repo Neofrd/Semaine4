@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 require "open-uri"
 require "json"
 loop do
@@ -9,7 +10,8 @@ loop do
     
     json=open(url).read
     
-    data=JSON.parse(json)
+    data= JSON.parse(json)
     
-    puts data ['product']['product_name']
+    puts data['product']['product_name']
+    
 end
