@@ -12,6 +12,5 @@ loop do
     
     data= JSON.parse(json)
     
-    puts data['product']['product_name']
-    
+    puts data ['product']['product_name']
 end
