@@ -1,7 +1,7 @@
 require "open-uri"
 require "json"
 loop do
-    print "Entrez un numéro de code barre"
+    print "Entrez un numéro de code barre : "
     bar_code = gets.chomp
     break if bar_code ==""
     
